@@ -9,25 +9,63 @@
 /* Begin PBXBuildFile section */
 		FE8299462E0FCEA90068FADB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8299452E0FCEA90068FADB /* AppDelegate.swift */; };
 		FE8299482E0FCEA90068FADB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8299472E0FCEA90068FADB /* SceneDelegate.swift */; };
-		FE82994A2E0FCEA90068FADB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8299492E0FCEA90068FADB /* ViewController.swift */; };
+		FE82994A2E0FCEA90068FADB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE8299492E0FCEA90068FADB /* HomeViewController.swift */; };
 		FE8299502E0FCEAA0068FADB /* Sarkmeli.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FE82994E2E0FCEAA0068FADB /* Sarkmeli.xcdatamodeld */; };
 		FE8299522E0FCEAB0068FADB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE8299512E0FCEAB0068FADB /* Assets.xcassets */; };
 		FE8299552E0FCEAB0068FADB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE8299532E0FCEAB0068FADB /* LaunchScreen.storyboard */; };
+		FE98D8EB2E17ED6400454C1D /* ournalEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE98D8EA2E17ED6400454C1D /* ournalEntry.swift */; };
+		FE98D8EE2E1805B700454C1D /* JournalEntryManagedObject+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE98D8EC2E1805B700454C1D /* JournalEntryManagedObject+CoreDataClass.swift */; };
+		FE98D8EF2E1805B700454C1D /* JournalEntryManagedObject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE98D8ED2E1805B700454C1D /* JournalEntryManagedObject+CoreDataProperties.swift */; };
+		FEE164DB2E103C3000C8E7E4 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE164DA2E103C3000C8E7E4 /* CalendarViewController.swift */; };
+		FEE164DD2E105CE800C8E7E4 /* CollorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE164DC2E105CE800C8E7E4 /* CollorExtension.swift */; };
+		FEEF05582E15CD04002F1699 /* SarkmeliTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEF05572E15CD04002F1699 /* SarkmeliTests.swift */; };
+		FEEF055F2E15CE2E002F1699 /* JournalRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEF055E2E15CE2E002F1699 /* JournalRepositoryTests.swift */; };
+		FEEF05672E16DBAC002F1699 /* JournalRepositoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEF05662E16DBAC002F1699 /* JournalRepositoryProtocol.swift */; };
+		FEEF05692E16DC1E002F1699 /* CoreDataJournalRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEF05682E16DC1E002F1699 /* CoreDataJournalRepository.swift */; };
+		FEEF056C2E16E115002F1699 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEEF056B2E16E115002F1699 /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEEF05592E15CD04002F1699 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE82993A2E0FCEA90068FADB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE8299412E0FCEA90068FADB;
+			remoteInfo = Sarkmeli;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		FE8299422E0FCEA90068FADB /* Sarkmeli.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sarkmeli.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE8299452E0FCEA90068FADB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE8299472E0FCEA90068FADB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FE8299492E0FCEA90068FADB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE8299492E0FCEA90068FADB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		FE82994F2E0FCEAA0068FADB /* Sarkmeli.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sarkmeli.xcdatamodel; sourceTree = "<group>"; };
 		FE8299512E0FCEAB0068FADB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE8299542E0FCEAB0068FADB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE8299562E0FCEAB0068FADB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE98D8EA2E17ED6400454C1D /* ournalEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ournalEntry.swift; sourceTree = "<group>"; };
+		FE98D8EC2E1805B700454C1D /* JournalEntryManagedObject+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JournalEntryManagedObject+CoreDataClass.swift"; sourceTree = "<group>"; };
+		FE98D8ED2E1805B700454C1D /* JournalEntryManagedObject+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JournalEntryManagedObject+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		FEE164DA2E103C3000C8E7E4 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		FEE164DC2E105CE800C8E7E4 /* CollorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollorExtension.swift; sourceTree = "<group>"; };
+		FEEF05552E15CD04002F1699 /* SarkmeliTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SarkmeliTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEEF05572E15CD04002F1699 /* SarkmeliTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SarkmeliTests.swift; sourceTree = "<group>"; };
+		FEEF055E2E15CE2E002F1699 /* JournalRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalRepositoryTests.swift; sourceTree = "<group>"; };
+		FEEF05662E16DBAC002F1699 /* JournalRepositoryProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalRepositoryProtocol.swift; sourceTree = "<group>"; };
+		FEEF05682E16DC1E002F1699 /* CoreDataJournalRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataJournalRepository.swift; sourceTree = "<group>"; };
+		FEEF056B2E16E115002F1699 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FE82993F2E0FCEA90068FADB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEEF05522E15CD04002F1699 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				FE8299442E0FCEA90068FADB /* Sarkmeli */,
+				FEEF05562E15CD04002F1699 /* SarkmeliTests */,
 				FE8299432E0FCEA90068FADB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				FE8299422E0FCEA90068FADB /* Sarkmeli.app */,
+				FEEF05552E15CD04002F1699 /* SarkmeliTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +96,80 @@
 		FE8299442E0FCEA90068FADB /* Sarkmeli */ = {
 			isa = PBXGroup;
 			children = (
+				FEC720C02E13E251001992E7 /* Controllers */,
+				FEC720BF2E13E248001992E7 /* Views */,
+				FEC720BE2E13E239001992E7 /* ViewModels */,
+				FEC720BD2E13E22C001992E7 /* Models */,
+				FEC720BC2E13E21F001992E7 /* Repositories */,
+				FEC720BB2E13E200001992E7 /* Utils */,
 				FE8299452E0FCEA90068FADB /* AppDelegate.swift */,
 				FE8299472E0FCEA90068FADB /* SceneDelegate.swift */,
-				FE8299492E0FCEA90068FADB /* ViewController.swift */,
 				FE8299512E0FCEAB0068FADB /* Assets.xcassets */,
 				FE8299532E0FCEAB0068FADB /* LaunchScreen.storyboard */,
 				FE8299562E0FCEAB0068FADB /* Info.plist */,
-				FE82994E2E0FCEAA0068FADB /* Sarkmeli.xcdatamodeld */,
 			);
 			path = Sarkmeli;
+			sourceTree = "<group>";
+		};
+		FEC720BB2E13E200001992E7 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				FEEF056B2E16E115002F1699 /* CoreDataStack.swift */,
+				FEE164DC2E105CE800C8E7E4 /* CollorExtension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		FEC720BC2E13E21F001992E7 /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				FEEF05662E16DBAC002F1699 /* JournalRepositoryProtocol.swift */,
+				FEEF05682E16DC1E002F1699 /* CoreDataJournalRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		FEC720BD2E13E22C001992E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FE82994E2E0FCEAA0068FADB /* Sarkmeli.xcdatamodeld */,
+				FE98D8EA2E17ED6400454C1D /* ournalEntry.swift */,
+				FE98D8EC2E1805B700454C1D /* JournalEntryManagedObject+CoreDataClass.swift */,
+				FE98D8ED2E1805B700454C1D /* JournalEntryManagedObject+CoreDataProperties.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FEC720BE2E13E239001992E7 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FEC720BF2E13E248001992E7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FEC720C02E13E251001992E7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FE8299492E0FCEA90068FADB /* HomeViewController.swift */,
+				FEE164DA2E103C3000C8E7E4 /* CalendarViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FEEF05562E15CD04002F1699 /* SarkmeliTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEEF05572E15CD04002F1699 /* SarkmeliTests.swift */,
+				FEEF055E2E15CE2E002F1699 /* JournalRepositoryTests.swift */,
+			);
+			path = SarkmeliTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +192,24 @@
 			productReference = FE8299422E0FCEA90068FADB /* Sarkmeli.app */;
 			productType = "com.apple.product-type.application";
 		};
+		FEEF05542E15CD04002F1699 /* SarkmeliTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEEF055D2E15CD04002F1699 /* Build configuration list for PBXNativeTarget "SarkmeliTests" */;
+			buildPhases = (
+				FEEF05512E15CD04002F1699 /* Sources */,
+				FEEF05522E15CD04002F1699 /* Frameworks */,
+				FEEF05532E15CD04002F1699 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEEF055A2E15CD04002F1699 /* PBXTargetDependency */,
+			);
+			name = SarkmeliTests;
+			productName = SarkmeliTests;
+			productReference = FEEF05552E15CD04002F1699 /* SarkmeliTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -99,6 +222,10 @@
 				TargetAttributes = {
 					FE8299412E0FCEA90068FADB = {
 						CreatedOnToolsVersion = 14.2;
+					};
+					FEEF05542E15CD04002F1699 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = FE8299412E0FCEA90068FADB;
 					};
 				};
 			};
@@ -116,6 +243,7 @@
 			projectRoot = "";
 			targets = (
 				FE8299412E0FCEA90068FADB /* Sarkmeli */,
+				FEEF05542E15CD04002F1699 /* SarkmeliTests */,
 			);
 		};
 /* End PBXProject section */
@@ -130,6 +258,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FEEF05532E15CD04002F1699 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -137,14 +272,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE82994A2E0FCEA90068FADB /* ViewController.swift in Sources */,
+				FEE164DB2E103C3000C8E7E4 /* CalendarViewController.swift in Sources */,
+				FE98D8EF2E1805B700454C1D /* JournalEntryManagedObject+CoreDataProperties.swift in Sources */,
+				FE98D8EB2E17ED6400454C1D /* ournalEntry.swift in Sources */,
+				FE82994A2E0FCEA90068FADB /* HomeViewController.swift in Sources */,
+				FEEF05692E16DC1E002F1699 /* CoreDataJournalRepository.swift in Sources */,
 				FE8299502E0FCEAA0068FADB /* Sarkmeli.xcdatamodeld in Sources */,
 				FE8299462E0FCEA90068FADB /* AppDelegate.swift in Sources */,
+				FEEF056C2E16E115002F1699 /* CoreDataStack.swift in Sources */,
+				FEE164DD2E105CE800C8E7E4 /* CollorExtension.swift in Sources */,
+				FE98D8EE2E1805B700454C1D /* JournalEntryManagedObject+CoreDataClass.swift in Sources */,
 				FE8299482E0FCEA90068FADB /* SceneDelegate.swift in Sources */,
+				FEEF05672E16DBAC002F1699 /* JournalRepositoryProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEEF05512E15CD04002F1699 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEEF05582E15CD04002F1699 /* SarkmeliTests.swift in Sources */,
+				FEEF055F2E15CE2E002F1699 /* JournalRepositoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEEF055A2E15CD04002F1699 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE8299412E0FCEA90068FADB /* Sarkmeli */;
+			targetProxy = FEEF05592E15CD04002F1699 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FE8299532E0FCEAB0068FADB /* LaunchScreen.storyboard */ = {
@@ -326,6 +486,42 @@
 			};
 			name = Release;
 		};
+		FEEF055B2E15CD04002F1699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68JHUUXS7A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "salome-mskhvilidze.SarkmeliTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sarkmeli.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sarkmeli";
+			};
+			name = Debug;
+		};
+		FEEF055C2E15CD04002F1699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68JHUUXS7A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "salome-mskhvilidze.SarkmeliTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sarkmeli.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Sarkmeli";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -343,6 +539,15 @@
 			buildConfigurations = (
 				FE82995A2E0FCEAB0068FADB /* Debug */,
 				FE82995B2E0FCEAB0068FADB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEEF055D2E15CD04002F1699 /* Build configuration list for PBXNativeTarget "SarkmeliTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEEF055B2E15CD04002F1699 /* Debug */,
+				FEEF055C2E15CD04002F1699 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
